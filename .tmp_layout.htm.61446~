@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>${title}</title>
+        <link rel="stylesheet" href="style.css" type="text/css" />
+		<link href="http://fonts.googleapis.com/css?family=PT+Serif+Caption&v2" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div id="_top">
+        </div>
+        <nav>
+        	<a id="_backtotop" href="#_top">#top</a><br>
+            ${index}
+        </nav>
+        <section id="_main">
+            ${content}
+        </section>
+        <footer>
+        	${footer}
+        </footer>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.6.2.min.js">
+        </script>
+        <script type="text/javascript" src="scripts/showdown.js">
+        </script>
+        <script type="text/javascript" src="scripts/pelpa.js">
+        </script>
+    </body>
+</html>
